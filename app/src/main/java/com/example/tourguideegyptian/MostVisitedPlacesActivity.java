@@ -10,6 +10,6 @@ public class MostVisitedPlacesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_most_visited_places);
-        setTitle("الأماكن الأكثر زيارة");
+        setTitle(getString(R.string.title_MostVisitedPlaces));
     }
 }

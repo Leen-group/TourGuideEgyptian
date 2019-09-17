@@ -10,6 +10,6 @@ public class MedicalTourismActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medical_tourism);
-        setTitle("السياحة العلاجية");
+        setTitle(getString(R.string.title_MedicalTourism));
     }
 }

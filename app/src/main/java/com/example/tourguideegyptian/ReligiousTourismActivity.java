@@ -10,6 +10,6 @@ public class ReligiousTourismActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_religious_tourism);
-        setTitle("السياحة الدينية");
+        setTitle(getString(R.string.title_ReligiousTourism));
     }
 }

@@ -10,6 +10,6 @@ public class NearYouActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_near_you);
-        setTitle("بالقرب منك");
+        setTitle(getString(R.string.title_NearYou));
     }
 }

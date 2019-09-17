@@ -30,9 +30,9 @@ public class ExitFragment extends DialogFragment {
         LayoutInflater inflater = getActivity().getLayoutInflater();
         View view = inflater.inflate(R.layout.fragment_exit, null);
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle("Exit")
+        builder.setTitle(getString(R.string.title_ExitFragment))
                 .setView(view)
-                .setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                .setPositiveButton(getString(R.string.buttonOk_ExitFragment), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
@@ -40,7 +40,7 @@ public class ExitFragment extends DialogFragment {
 
                     }
                 })
-                .setNegativeButton("cancel", null);
+                .setNegativeButton(getString(R.string.buttonCancel_ExitFragment), null);
 
         AlertDialog dialog = builder.create();
         return dialog;

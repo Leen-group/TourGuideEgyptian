@@ -3,4 +3,13 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    //Main Activity/Pie Chart
+    <color name="tourist_places">#ffc34d</color>
+    <color name="medical_tourism">#ffcc66</color>
+    <color name="most_visited_places">#ffeecc</color>
+    <color name="Religious">#ffe6b3</color>
+    <color name="suggestions">#ffdd99</color>
+    <color name="near_you">#ffd480</color>
+    <color name="labels">#bfbfbf</color>
 </resources>

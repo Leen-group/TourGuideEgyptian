@@ -19,17 +19,17 @@ public class MainActivity extends AppCompatActivity implements PieChartOnValueSe
         pieChart = findViewById(R.id.chart);
         //Array to fill Pie Chart in Data
         List<SliceValue> pieData = new ArrayList<>();
-        pieData.add(new SliceValue(20, Color.parseColor("#ffc34d")).setLabel("الأماكن السياحية"));//arcIndex=6
-        pieData.add(new SliceValue(20, Color.parseColor("#ffeecc")).setLabel("الأكثر زيارة"));//arcIndex=1
-        pieData.add(new SliceValue(20, Color.parseColor("#ffe6b3")).setLabel("الدينية"));//arcIndex=2
-        pieData.add(new SliceValue(20, Color.parseColor("#ffdd99")).setLabel("الإقتراحات"));//arcIndex=3
-        pieData.add(new SliceValue(20, Color.parseColor("#ffd480")).setLabel("بالقرب منك"));//arcIndex=4
-        pieData.add(new SliceValue(20, Color.parseColor("#ffcc66")).setLabel("العلاجية"));//arcIndex=5
+        pieData.add(new SliceValue(20, getResources().getColor(R.color.tourist_places)).setLabel(getString(R.string.tourist_places)));//arcIndex=6
+        pieData.add(new SliceValue(20, getResources().getColor(R.color.most_visited_places)).setLabel(getString(R.string.most_visited_places)));//arcIndex=1
+        pieData.add(new SliceValue(20, getResources().getColor(R.color.Religious)).setLabel(getString(R.string.Religious)));//arcIndex=2
+        pieData.add(new SliceValue(20, getResources().getColor(R.color.suggestions)).setLabel(getString(R.string.suggestions)));//arcIndex=3
+        pieData.add(new SliceValue(20, getResources().getColor(R.color.near_you)).setLabel(getString(R.string.near_you)));//arcIndex=4
+        pieData.add(new SliceValue(20, getResources().getColor(R.color.medical_tourism)).setLabel(getString(R.string.medical_tourism)));//arcIndex=5
         PieChartData pieChartData = new PieChartData(pieData);
         // To Control labels Pie Chart
         pieChartData.setHasLabels(true).setValueLabelTextSize(14);
         pieChartData.setHasLabels(true).setValueLabelBackgroundEnabled(false);
-        pieChartData.setHasLabels(true).setValueLabelsTextColor(Color.parseColor("#bfbfbf"));
+        pieChartData.setHasLabels(true).setValueLabelsTextColor(getResources().getColor(R.color.labels));
         pieChartData.setHasCenterCircle(true).setCenterText1(" ");
         pieChart.setPieChartData(pieChartData);
         pieChart.setClickable(true);

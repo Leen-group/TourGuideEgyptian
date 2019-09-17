@@ -10,6 +10,6 @@ public class TouristPlacesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tourist_places);
-        setTitle("الأماكن السياحية");
+        setTitle(getString(R.string.title_TouristPlaces));
     }
 }

@@ -1,6 +1,32 @@
 <resources>
+    //Main Activity//
     <string name="app_name">TourGuideEgyptian</string>
-    <string name="mvp_activity">MostVisitedPlaces</string>
     <string name="exit_fragment_text_view"> هل أنت تريد الخروج ؟ </string>
+
+    //Main Activity/Pie Chart
     <string name="description_logo">logo</string>
+    <string name="tourist_places">الأماكن السياحية</string>
+    <string name="medical_tourism">العلاجية</string>
+    <string name="near_you">بالقرب منك</string>
+    <string name="suggestions">الإقتراحات</string>
+    <string name="Religious">الدينية</string>
+    <string name="most_visited_places">الأكثر زيارة</string>
+
+    //MedicalTourismActivity
+    <string name="title_MedicalTourism">السياحة العلاجية</string>
+    //MostVisitedPlacesActivity
+    <string name="title_MostVisitedPlaces">الأماكن الأكثر زيارة</string>
+    //NearYouActivity
+    <string name="title_NearYou">بالقرب منك</string>
+    //ReligiousTourismActivity
+    <string name="title_ReligiousTourism">السياحة الدينية</string>
+    //SuggestionsActivity
+    <string name="title_Suggestions">الإقتراحات</string>
+    //TouristPlacesActivity
+    <string name="title_TouristPlaces">الأماكن السياحية</string>
+
+    //ExitFragment
+    <string name="title_ExitFragment">Exit</string>
+    <string name="buttonOk_ExitFragment">Ok</string>
+    <string name="buttonCancel_ExitFragment">Cancel</string>
 </resources>
