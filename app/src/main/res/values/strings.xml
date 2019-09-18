@@ -29,4 +29,13 @@
     <string name="title_ExitFragment">Exit</string>
     <string name="buttonOk_ExitFragment">Ok</string>
     <string name="buttonCancel_ExitFragment">Cancel</string>
+
+    //login_activity
+    <string name="title_login">Login</string>
+    <string name="edit_text_username">username</string>
+    <string name="edit_text_password">password</string>
+    <string name="No_account">no account yet? Create one</string>
+    <string name="button_login">Login</string>
+
+
 </resources>
