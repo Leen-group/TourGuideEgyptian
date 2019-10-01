@@ -37,5 +37,24 @@
     <string name="No_account">no account yet? Create one</string>
     <string name="button_login">Login</string>
 
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome One!</string>
+    <string name="slide_1_desc">One</string>
+
+    <string name="slide_2_title">Welcome Two!</string>
+    <string name="slide_2_desc">Two</string>
+
+    <string name="slide_3_title">Welcome Three!</string>
+    <string name="slide_3_desc">Three</string>
+
+    <string name="slide_4_title">Welcome Four!</string>
+    <string name="slide_4_desc">Four</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
 
 </resources>
